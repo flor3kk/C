@@ -1,0 +1,4 @@
+This is C programming.
+This is a system programming language.
+We are programming in C in 2022 year.
+Today is 20.12.2022

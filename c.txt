@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int level;
+    char litera = 'A';
+    
+    printf("podaj ile poziomow: ");
+    scanf(" %d", &level);
+    
+    for(int i = 0; i < level; i++){
+        int f = level - i;
+        for(f; f>0; f--){
+            printf(" ");
+        }
+        
+        for (int t = 0; t<=2 * i; t++){
+            printf(" %c", litera);
+        }
+        litera++;
+        printf("\n");
+    }
+    return 0;
+}
